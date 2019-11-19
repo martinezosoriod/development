@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   width="181.33333"
+   height="105.6"
+   viewBox="0 0 170 99"
+   sodipodi:docname="company_logo.svg">
+  <metadata
+     id="metadata8">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs6" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="695"
+     id="namedview4"
+     showgrid="false"
+     inkscape:zoom="2.6582413"
+     inkscape:cx="91.959188"
+     inkscape:cy="42.447993"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <text
+     xml:space="preserve"
+     style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#bebebe;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+     x="84.89679"
+     y="94.426949"
+     id="text3376"><tspan
+       sodipodi:role="line"
+       x="84.89679"
+       y="94.426949"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:5px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;text-anchor:middle;fill:#bebebe;fill-opacity:1"
+       id="tspan3380">Seguridad en Almacenamiento de Datos en la Nube</tspan></text>
+  <path
+     inkscape:connector-curvature="0"
+     id="path2397-1"
+     style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd"
+     d="m 76.677941,16.218657 c 9.372851,0 17.402537,5.052993 21.671645,12.333727 2.403314,-1.713461 5.473224,-2.822754 8.841894,-2.822754 7.65602,0 13.86993,5.325946 13.86993,11.888519 0,1.473786 -0.29423,2.858112 -0.86692,4.160894 8.7071,3.328709 14.73625,10.876579 14.73625,19.61446 0,11.850234 -11.13457,21.395327 -24.96537,21.395327 H 60.034642 c -13.830806,0 -24.965385,-9.544262 -24.965385,-21.398652 0,-9.395305 7.040221,-17.317655 16.81836,-20.213636 -0.02554,-0.406106 -0.174707,-0.777255 -0.174707,-1.189182 0,-13.124301 11.184485,-23.776189 24.965333,-23.776189 z"
+     sodipodi:nodetypes="ccsscsssscscc" />
+  <g
+     id="g3436">
+    <path
+       inkscape:connector-curvature="0"
+       id="rect3259-2-8-6"
+       style="color:#bebebe;text-indent:0;text-transform:none;fill:#ffffff"
+       d="m 65.287594,33.514881 v 3.137666 18.826001 c 0,6.500304 4.736622,11.549751 8.922897,15.296125 4.186275,3.746374 8.33427,6.275333 8.33427,6.275333 l 1.568833,0.882469 1.666886,-0.980521 c 0,0 4.061082,-2.502509 8.236375,-6.275333 4.173097,-3.796577 8.910975,-8.816844 8.910975,-15.217684 v -18.826 -3.137667 H 99.790162 68.413495 65.275828 Z m 6.275333,6.275333 h 25.101334 v 15.688334 c 0,2.885649 -3.096751,7.274366 -6.765437,10.589625 -2.842381,2.568399 -4.640295,3.573802 -5.78523,4.314291 -1.110012,-0.697911 -2.913606,-1.64649 -5.78523,-4.216396 -3.67107,-3.29455 -6.77736,-7.62453 -6.77736,-10.699444 V 39.778291 Z" />
+    <path
+       inkscape:connector-curvature="0"
+       id="rect4034-7-1-6"
+       style="color:#bebebe;fill:#ffffff"
+       d="m 74.700594,42.927881 v 12.550667 c 0,1.121339 2.369472,5.150166 5.78523,8.236375 1.805068,1.631053 2.310484,1.821478 3.62777,2.745458 1.317444,-0.92398 1.822859,-1.114405 3.627771,-2.745458 3.415664,-3.086335 5.785229,-7.114973 5.785229,-8.236375 V 42.927881 Z" />
+  </g>
+</svg>

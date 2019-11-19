@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   width="196.26666"
+   height="42.666668"
+   viewBox="0 0 184 40"
+   sodipodi:docname="suitecrm_login.svg">
+  <metadata
+     id="metadata8">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs6" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="695"
+     id="namedview4"
+     showgrid="false"
+     inkscape:zoom="1.5923913"
+     inkscape:cx="92"
+     inkscape:cy="20"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <g
+     id="g3355"
+     transform="matrix(1.2348616,0,0,1.2348616,103.63214,-18.537797)">
+    <path
+       sodipodi:nodetypes="ccsscsssscscc"
+       d="m -52.532735,16.540988 c 4.13065,0 7.66936,2.226871 9.55077,5.435515 1.05915,-0.755128 2.41207,-1.243997 3.89665,-1.243997 3.37404,0 6.11253,2.347163 6.11253,5.239311 0,0.649502 -0.12967,1.259579 -0.38206,1.83372 3.83725,1.466973 6.49432,4.793345 6.49432,8.644159 0,5.222438 -4.90705,9.428998 -11.00233,9.428998 h -22.00464 c -6.09528,0 -11.00233,-4.206194 -11.00233,-9.430463 0,-4.140543 3.10265,-7.63195 7.41191,-8.908218 -0.0112,-0.178973 -0.077,-0.342539 -0.077,-0.524077 0,-5.783924 4.92904,-10.478247 11.0023,-10.478247 z"
+       style="fill:#0044aa;fill-opacity:1;fill-rule:evenodd"
+       id="path2397-1-3-20"
+       inkscape:connector-curvature="0" />
+    <g
+       transform="matrix(0.44070339,0,0,0.44070339,-86.324965,9.3933706)"
+       id="g3436-2">
+      <path
+         d="m 65.287594,33.514881 v 3.137666 18.826001 c 0,6.500304 4.736622,11.549751 8.922897,15.296125 4.186275,3.746374 8.33427,6.275333 8.33427,6.275333 l 1.568833,0.882469 1.666886,-0.980521 c 0,0 4.061082,-2.502509 8.236375,-6.275333 4.173097,-3.796577 8.910975,-8.816844 8.910975,-15.217684 v -18.826 -3.137667 H 99.790162 68.413495 65.275828 Z m 6.275333,6.275333 h 25.101334 v 15.688334 c 0,2.885649 -3.096751,7.274366 -6.765437,10.589625 -2.842381,2.568399 -4.640295,3.573802 -5.78523,4.314291 -1.110012,-0.697911 -2.913606,-1.64649 -5.78523,-4.216396 -3.67107,-3.29455 -6.77736,-7.62453 -6.77736,-10.699444 V 39.778291 Z"
+         style="color:#bebebe;text-indent:0;text-transform:none;fill:#ffffff"
+         id="rect3259-2-8-6-3"
+         inkscape:connector-curvature="0" />
+      <path
+         d="m 74.700594,42.927881 v 12.550667 c 0,1.121339 2.369472,5.150166 5.78523,8.236375 1.805068,1.631053 2.310484,1.821478 3.62777,2.745458 1.317444,-0.92398 1.822859,-1.114405 3.627771,-2.745458 3.415664,-3.086335 5.785229,-7.114973 5.785229,-8.236375 V 42.927881 Z"
+         style="color:#bebebe;fill:#ffffff"
+         id="rect4034-7-1-6-7"
+         inkscape:connector-curvature="0" />
+    </g>
+    <text
+       id="text3376-93-2-9"
+       y="32.252388"
+       x="19.169024"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#bebebe;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         id="tspan3380-60-6-2"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.16926003px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;text-anchor:middle;fill:#bebebe;fill-opacity:1"
+         y="32.252388"
+         x="19.169024"
+         sodipodi:role="line">SNAD</tspan></text>
+    <text
+       id="text3376-7-1-2"
+       y="36.621841"
+       x="19.180872"
+       style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#bebebe;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       xml:space="preserve"><tspan
+         id="tspan3380-0-8-8"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.79744244px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;text-anchor:middle;fill:#bebebe;fill-opacity:1"
+         y="36.621841"
+         x="19.840977"
+         sodipodi:role="line">Seguridad en Almacenamiento </tspan><tspan
+         id="tspan3409-7-9"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:3.79744244px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';text-align:center;text-anchor:middle;fill:#bebebe;fill-opacity:1"
+         y="41.368645"
+         x="19.180872"
+         sodipodi:role="line">de Datos en la Nube</tspan></text>
+  </g>
+</svg>
