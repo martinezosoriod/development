@@ -15,16 +15,16 @@
       </a>
     </header>
     <div id="container">
-      <div class="bottom">
-        <a href="system"><?php echo 'System'; ?></a>
+      <div class="bottom" id="system">
+        <a href="system"><?php echo 'Sistema'; ?></a>
         <p></p>
       </div>
-      <div class="bottom">
-        <a href="#"><?php echo ' '; ?></a>
+      <div class="bottom" id="linked">
+        <a href="#"><?php echo 'Vinculado'; ?></a>
         <p></p>
       </div>
-      <div class="bottom">
-        <a href="#"><?php echo ' '; ?></a>
+      <div class="bottom" id="contact">
+        <a href="#"><?php echo 'Contacto'; ?></a>
         <p></p>
       </div>
     </div>
