@@ -38,4 +38,20 @@
  * display the words "Powered by SugarCRM" and "Supercharged by SuiteCRM".
  */
 $relationships = array (
+  'inv_mysettings_accounts' => 
+  array (
+    'rhs_label' => 'Cuentas',
+    'lhs_label' => 'Configuraciones',
+    'lhs_subpanel' => 'default',
+    'lhs_module' => 'Inv_mysettings',
+    'rhs_module' => 'Accounts',
+    'relationship_type' => 'many-to-one',
+    'readonly' => false,
+    'deleted' => false,
+    'relationship_only' => false,
+    'for_activities' => false,
+    'is_custom' => false,
+    'from_studio' => false,
+    'relationship_name' => 'inv_mysettings_accounts',
+  ),
 );

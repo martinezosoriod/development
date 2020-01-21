@@ -38,4 +38,20 @@
  * display the words "Powered by SugarCRM" and "Supercharged by SuiteCRM".
  */
 $relationships = array (
+  'irw_myreviews_activities' => 
+  array (
+    'rhs_label' => 'Actividades',
+    'lhs_label' => 'Análisis',
+    'rhs_subpanel' => 'Por Defecto',
+    'lhs_module' => 'Irw_myreviews',
+    'rhs_module' => 'Activities',
+    'relationship_type' => 'one-to-many',
+    'readonly' => false,
+    'deleted' => false,
+    'relationship_only' => false,
+    'for_activities' => false,
+    'is_custom' => false,
+    'from_studio' => false,
+    'relationship_name' => 'irw_myreviews_activities',
+  ),
 );

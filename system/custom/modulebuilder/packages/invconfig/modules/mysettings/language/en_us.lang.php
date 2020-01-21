@@ -74,4 +74,12 @@ $mod_strings = array (
   'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
   'LBL_INV_MYSETTINGS_SUBPANEL_TITLE' => 'Configuraciones',
   'LBL_NEW_FORM_TITLE' => 'New Configuraciones',
+  'LBL_ACCOUNT_ACCOUNT_ID' => 'Cuenta (relacionado Cuenta ID)',
+  'LBL_ACCOUNT' => 'Cuenta',
+  'LBL_ACTIVEUP' => 'Activo Hasta',
+  'LBL_MYCODE' => 'Código',
+  'LBL_MYNUMBER' => 'Número',
+  'LBL_ACTIVE' => 'Activo',
+  'LBL_STATUS' => 'Estado',
+  'LBL_EDITVIEW_PANEL1' => 'Type',
 );

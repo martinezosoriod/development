@@ -48,7 +48,7 @@ $mod_strings = array (
   'LBL_MODIFIED' => 'Modificado Por',
   'LBL_MODIFIED_NAME' => 'Modificado Por Nombre',
   'LBL_CREATED' => 'Creado por',
-  'LBL_DESCRIPTION' => 'Descripción',
+  'LBL_DESCRIPTION' => 'Description',
   'LBL_DELETED' => 'Eliminado',
   'LBL_NAME' => 'Nombre',
   'LBL_CREATED_USER' => 'Creado por el Usuario',
@@ -74,4 +74,8 @@ $mod_strings = array (
   'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Actividades',
   'LBL_INV_MYALERTS_SUBPANEL_TITLE' => 'Alertas',
   'LBL_NEW_FORM_TITLE' => 'Nuevo Alertas',
+  'LBL_MYCODE' => 'Código',
+  'LBL_MYNUMBER' => 'N°',
+  'LBL_STATUS' => 'Estado',
+  'LBL_ADVANCE' => 'Avance',
 );

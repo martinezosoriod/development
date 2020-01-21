@@ -63,9 +63,9 @@ $manifest = array (
   'icon' => '',
   'is_uninstallable' => true,
   'name' => 'invreviews',
-  'published_date' => '2019-12-16 20:45:14',
+  'published_date' => '2020-01-12 08:04:51',
   'type' => 'module',
-  'version' => 1576529114,
+  'version' => 1578816291,
   'remove_tables' => 'prompt',
 );
 

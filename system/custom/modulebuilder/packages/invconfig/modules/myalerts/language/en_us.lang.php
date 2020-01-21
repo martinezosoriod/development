@@ -74,4 +74,8 @@ $mod_strings = array (
   'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
   'LBL_INV_MYALERTS_SUBPANEL_TITLE' => 'Alertas',
   'LBL_NEW_FORM_TITLE' => 'New Alertas',
+  'LBL_MYCODE' => 'Código',
+  'LBL_MYNUMBER' => 'Consecutivo',
+  'LBL_STATUS' => 'Estado',
+  'LBL_ADVANCE' => 'Avance',
 );
