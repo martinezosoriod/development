@@ -1,32 +1,33 @@
-<?php 
-$GLOBALS["tabStructure"] =array (
-  'LBL_TABGROUP_SALES' => 
+<?php
+// created: 2020-01-21 16:39:17
+$GLOBALS['tabStructure'] = array (
+  'LBL_TABGROUP_COMPANY' => 
   array (
-    'label' => 'LBL_TABGROUP_SALES',
+    'label' => 'LBL_TABGROUP_COMPANY',
     'modules' => 
     array (
       0 => 'Home',
       1 => 'Accounts',
       2 => 'Contacts',
-      3 => 'Opportunities',
-      4 => 'Leads',
-      5 => 'Contracts',
-      6 => 'Quotes',
-      7 => 'Forecasts',
+      3 => 'AOS_Contracts',
+      4 => 'AOS_Invoices',
+      5 => 'AOS_PDF_Templates',
+      6 => 'AOS_Products',
+      7 => 'AOS_Product_Categories',
+      8 => 'AOS_Quotes',
     ),
   ),
-  'LBL_TABGROUP_MARKETING' => 
+  'LBL_TABGROUP_PURCHASES' => 
   array (
-    'label' => 'LBL_TABGROUP_MARKETING',
+    'label' => 'LBL_TABGROUP_PURCHASES',
     'modules' => 
     array (
       0 => 'Home',
-      1 => 'Accounts',
-      2 => 'Contacts',
-      3 => 'Leads',
-      4 => 'Campaigns',
-      5 => 'Prospects',
-      6 => 'ProspectLists',
+      1 => 'Leads',
+      2 => 'Opportunities',
+      3 => 'Campaigns',
+      4 => 'Prospects',
+      5 => 'ProspectLists',
     ),
   ),
   'LBL_TABGROUP_SUPPORT' => 
@@ -35,10 +36,10 @@ $GLOBALS["tabStructure"] =array (
     'modules' => 
     array (
       0 => 'Home',
-      1 => 'Accounts',
-      2 => 'Contacts',
-      3 => 'Cases',
-      4 => 'Bugs',
+      1 => 'Cases',
+      2 => 'Bugs',
+      3 => 'Surveys',
+      4 => 'SecurityGroups',
     ),
   ),
   'LBL_TABGROUP_ACTIVITIES' => 
@@ -48,11 +49,15 @@ $GLOBALS["tabStructure"] =array (
     array (
       0 => 'Home',
       1 => 'Calendar',
-      2 => 'Calls',
-      3 => 'Meetings',
-      4 => 'Emails',
-      5 => 'Tasks',
-      6 => 'Notes',
+      2 => 'ResourceCalendar',
+      3 => 'Calls',
+      4 => 'Meetings',
+      5 => 'Emails',
+      6 => 'EmailTemplates',
+      7 => 'Tasks',
+      8 => 'Notes',
+      9 => 'FP_events',
+      10 => 'Spots',
     ),
   ),
   'LBL_TABGROUP_COLLABORATION' => 
@@ -61,9 +66,11 @@ $GLOBALS["tabStructure"] =array (
     'modules' => 
     array (
       0 => 'Home',
-      1 => 'Emails',
-      2 => 'Documents',
-      3 => 'Project',
+      1 => 'Documents',
+      2 => 'Project',
+      3 => 'AM_ProjectTemplates',
+      4 => 'AOK_KnowledgeBase',
+      5 => 'AOK_Knowledge_Base_Categories',
     ),
   ),
 );

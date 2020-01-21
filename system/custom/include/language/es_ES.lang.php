@@ -14,3 +14,8 @@ $GLOBALS['app_list_strings']['Inv_myalerts_status']=array (
   'in_process' => 'En Proceso',
   'finished' => 'Terminado',
 );
+$app_strings['LBL_TABGROUP_FLOW'] = 'Flujo';
+
+$app_strings['LBL_TABGROUP_COMPANY'] = 'Compañia';
+$app_strings['LBL_TABGROUP_PURCHASES'] = 'Compras';
+?>
