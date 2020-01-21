@@ -999,4 +999,6 @@ $mod_strings = array(
 
     'LBL_SHAREDRULES_SETTINGS' => "Reglas de seguridad compartidas", // PR 6143
     'LBL_SHAREDRULES_SETTINGS_DESC' => "Gestionar las reglas de seguridad compartidas", // PR 6143
+    'LBL_JJWG_MAPS_ADMIN_HEADER' => 'Administrador de Mapas', //N3mod
+    'LBL_JJWG_MAPS_ADMIN_DESC' => 'Configuración y administración de los mapas del ambiente.', // N3mod
 );
