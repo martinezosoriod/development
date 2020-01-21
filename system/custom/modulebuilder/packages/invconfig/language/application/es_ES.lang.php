@@ -38,9 +38,9 @@
  * display the words "Powered by SugarCRM" and "Supercharged by SuiteCRM".
  */
 
-$app_list_strings['moduleList']['Inv_mycontrols'] = 'Controles';
 $app_list_strings['moduleList']['Inv_myalerts'] = 'Alertas';
 $app_list_strings['moduleList']['Inv_mysettings'] = 'Configuraciones';
+$app_list_strings['moduleList']['Inv_mycontrols'] = 'Controles';
 $app_list_strings['Inv_mysettings_status']['active'] = 'Activo';
 $app_list_strings['Inv_mysettings_status']['inactive'] = 'Inactivo';
 $app_list_strings['Inv_myalerts_status']['new'] = 'Nuevo';
