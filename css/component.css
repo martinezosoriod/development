@@ -115,27 +115,27 @@ a, button {
 /* Adding some background color to the different menu items */
 
 .nav li:nth-child(6n+1) {
-	background: rgb(208, 101, 3);
+	background: #24282f;
 }
 
 .nav li:nth-child(6n+2) {
-	background: rgb(233, 147, 26);
+	background: #bc926b;
 }
 
 .nav li:nth-child(6n+3) {
-	background: rgb(22, 145, 190);
+	background: #d3ab2c;
 }
 
 .nav li:nth-child(6n+4) {
-	background: rgb(22, 107, 162);
+	background: #4f674d;
 }
 
 .nav li:nth-child(6n+5) {
-	background: rgb(27, 54, 71);
+	background: #49798c;
 }
 
 .nav li:nth-child(6n+6) {
-	background: rgb(21, 40, 54);
+	background: #1f2737;
 }
 
 /* For screen bigger than 800px */
@@ -196,7 +196,7 @@ a, button {
 	}
 
 	/* Placing the icon */
-	
+
 	.icon {
 		padding-top: 1.4em;
 	}
@@ -219,7 +219,7 @@ a, button {
 	.nav a:active ,
 	.nav a:focus {
 		height: 10em;
-	}	
+	}
 
 	/* Making the text follow the height animation */
 	.no-touch .nav a:hover .icon + span {
@@ -251,12 +251,12 @@ a, button {
 		-o-transition: box-shadow .6s ease-in-out;
 		-ms-transition: box-shadow .6s ease-in-out;
 		transition: box-shadow .6s ease-in-out;
-	}	
-	
+	}
+
 	/* Animate the box-shadow to create the effect */
 	.no-touch .nav a:hover i,
 	.no-touch .nav a:active i,
-	.no-touch .nav a:focus i {		
+	.no-touch .nav a:focus i {
 		box-shadow: 0 0 0 0 rgba(255,255,255,0.2);
 		-webkit-transition: box-shadow .4s ease-in-out;
 		-moz-transition: box-shadow .4s ease-in-out;
@@ -264,7 +264,7 @@ a, button {
 		-ms-transition: box-shadow .4s ease-in-out;
 		transition: box-shadow .4s ease-in-out;
 	}
-		
+
 }
 
 @media (min-width: 50em) and (max-width: 61.250em) {
@@ -278,8 +278,8 @@ a, button {
 
 /* The "tablet" and "mobile" version */
 
-@media (max-width: 49.938em) {		
-	
+@media (max-width: 49.938em) {
+
 	/* Instead of adding a border, we transition the background color */
 	.no-touch .nav ul li:nth-child(6n+1) a:hover,
 	.no-touch .nav ul li:nth-child(6n+1) a:active,
@@ -323,27 +323,27 @@ a, button {
 		-o-transition: background 0.5s;
 		-ms-transition: background 0.5s;
 		transition: background 0.5s;
-	}	
+	}
 
 }
 
 /* CSS specific to the 2x3 columns version */
 @media (min-width:32.5em) and (max-width: 49.938em) {
-	
+
 	/* Creating the 2 column layout using floating elements once again */
 	.nav li {
 		display: block;
 		float: left;
 		width: 50%;
 	}
-	
+
 	/* Adding some padding to make the elements look nicer*/
 	.nav a {
-		padding: 0.8em;		
+		padding: 0.8em;
 	}
 
 	/* Displaying the icons on the left, and the text on the right side using inlin-block*/
-	.nav li span, 
+	.nav li span,
 	.nav li span.icon {
 		display: inline-block;
 	}
@@ -382,12 +382,12 @@ a, button {
 	.no-touch .nav li:focus i {
 		border: 4px solid rgba(255,255,255,0.1);
 	}
-	
+
 }
 
 /* Adapting the font size and width for smaller screns*/
 @media (min-width: 32.5em) and (max-width: 38.688em) {
-	
+
 	.nav li span.icon {
 		width: 50%;
 	}
@@ -399,7 +399,7 @@ a, button {
 
 /* Styling the toggle menu link and hiding it */
 .nav .navtoogle{
-	display: none;	
+	display: none;
 	width: 100%;
 	padding: 0.5em 0.5em 0.8em;
 	font-family: 'Lato',Calibri,Arial,sans-serif;
@@ -407,7 +407,7 @@ a, button {
 	text-align: left;
 	color: rgb(7, 16, 15);
 	font-size: 1.2em;
-	background: none;	
+	background: none;
 	border: none;
 	border-bottom: 4px solid rgb(221, 221, 221);
 	cursor: pointer;
@@ -431,23 +431,23 @@ a, button {
 		margin: 0;
 		display: block;
 	}
-	
+
 	/* Animating the height of the navigation when the button is clicked */
-	
+
 	/* When JavaScript is disabled, we hide the menu */
 	.no-js .nav ul {
 		max-height: 30em;
 		overflow: hidden;
 	}
-	
+
 	/* When JavaScript is enabled, we hide the menu */
 	.js .nav ul {
 		max-height: 0em;
 		overflow: hidden;
 	}
-	
+
 	/* Displaying the menu when the user has clicked on the button*/
-	.js .nav .active + ul {		
+	.js .nav .active + ul {
 		max-height: 30em;
 		overflow: hidden;
 		-webkit-transition: max-height .4s;
@@ -458,21 +458,21 @@ a, button {
 	}
 
 	/* Adapting the layout of the menu for smaller screens : icon on the left and text on the right*/
-	
+
 	.nav li span {
 		display: inline-block;
 		height: 100%;
 	}
 
 	.nav a {
-		padding: 0.5em;		
+		padding: 0.5em;
 	}
-	
+
 	.icon + span {
 		margin-left: 1em;
 		font-size: 0.8em;
 	}
-	
+
 	/* Adding a left border of 8 px with a different color for each menu item*/
 	.nav li:nth-child(6n+1) {
 		border-left: 8px solid rgb(174, 78, 1);
@@ -503,4 +503,3 @@ a, button {
 		padding: 0.8em;
 	}
 }
-
