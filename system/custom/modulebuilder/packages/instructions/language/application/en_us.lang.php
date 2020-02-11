@@ -38,8 +38,8 @@
  * display the words "Powered by SugarCRM" and "Supercharged by SuiteCRM".
  */
 
-$app_list_strings['moduleList']['Irw_audits'] = 'Auditorías';
 $app_list_strings['moduleList']['Irw_myreviews'] = 'Análisis';
+$app_list_strings['moduleList']['Irw_audits'] = 'Auditorías';
 $app_list_strings['irw_myreviews_category_dom'][''] = '';
 $app_list_strings['irw_myreviews_category_dom']['Marketing'] = 'Marketing';
 $app_list_strings['irw_myreviews_category_dom']['Knowledege Base'] = 'Knowledge Base';
