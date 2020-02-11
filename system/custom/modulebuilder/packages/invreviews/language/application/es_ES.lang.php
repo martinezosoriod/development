@@ -38,6 +38,7 @@
  * display the words "Powered by SugarCRM" and "Supercharged by SuiteCRM".
  */
 
+$app_list_strings['moduleList']['Irw_audits'] = 'Auditorías';
 $app_list_strings['moduleList']['Irw_myreviews'] = 'Análisis';
 $app_list_strings['irw_myreviews_category_dom'][''] = '';
 $app_list_strings['irw_myreviews_category_dom']['Marketing'] = 'Marketing';
@@ -61,3 +62,14 @@ $app_list_strings['irw_myreviews_list']['empty'] = ' ';
 $app_list_strings['irw_myreviews_list']['corrective_action'] = 'Acción Correctiva';
 $app_list_strings['irw_myreviews_list']['preventive_action'] = 'Acción Preventiva';
 $app_list_strings['irw_myreviews_list']['improvement_action'] = 'Acción de Mejora';
+$app_list_strings['Irw_myreviews_source']['empty'] = ' ';
+$app_list_strings['Irw_myreviews_source']['audit0'] = 'Auditoria interna';
+$app_list_strings['Irw_myreviews_source']['audit1'] = 'Auditoria externa';
+$app_list_strings['Irw_myreviews_source']['indicators'] = 'Indicadores';
+$app_list_strings['Irw_myreviews_source']['cases'] = 'Casos';
+$app_list_strings['Irw_myreviews_source']['inspections'] = 'Inspecciones';
+$app_list_strings['Irw_myreviews_source']['nonconforming'] = 'Producto/Servicio No conforme';
+$app_list_strings['Irw_myreviews_source']['risk_map'] = 'Mapa de riesgos';
+$app_list_strings['Irw_myreviews_source']['other'] = 'Otra';
+$app_list_strings['Irw_myreviews_status']['process'] = 'Proceso';
+$app_list_strings['Irw_myreviews_status']['closed'] = 'Cerrado';
