@@ -161,4 +161,8 @@ $mod_strings = array(
     'LBL_AOS_CONTRACTS' => 'Contratos',
     'LBL_AOS_INVOICES' => 'Facturas',
     'LBL_AOS_QUOTES' => 'Presupuestos',
+
+    //Add by N3mod
+    'LBL_CONSECUTIVE' => 'Consecutivo',
+    'LBL_MYCODE' => 'Código',
 );
