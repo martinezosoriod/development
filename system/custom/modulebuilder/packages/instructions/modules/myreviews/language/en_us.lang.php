@@ -121,4 +121,11 @@ $mod_strings = array (
   'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
   'LBL_IRW_MYREVIEWS_SUBPANEL_TITLE' => 'ACPM',
   'LBL_SOURCE' => 'Fuente',
+  'LBL_FIRST' => 'First',
+  'LBL_SECOND' => 'Second',
+  'LBL_THIRD' => 'Third',
+  'LBL_FOURTH' => 'Fourth',
+  'LBL_FIFTH' => 'Fifth',
+  'LBL_CONSECUTIVE' => 'Consecutive',
+  'LBL_EDITVIEW_PANEL1' => 'Cause Analysis (Methodology Five (5) Why)',
 );

@@ -38,8 +38,12 @@
  * display the words "Powered by SugarCRM" and "Supercharged by SuiteCRM".
  */
 
-$app_list_strings['moduleList']['Irw_myreviews'] = 'Análisis';
 $app_list_strings['moduleList']['Irw_audits'] = 'Auditorías';
+$app_list_strings['moduleList']['Irw_myreviews'] = 'ACPM';
+$app_list_strings['moduleList']['Irw_procesos'] = 'Procesos';
+$app_list_strings['moduleList']['Irw_indicators'] = 'Indicadores';
+$app_list_strings['moduleList']['Irw_indicator_datas'] = 'Datos de Indicadores';
+$app_list_strings['moduleList']['Irw_data_audits'] = 'Datos de Auditoría';
 $app_list_strings['irw_myreviews_category_dom'][''] = '';
 $app_list_strings['irw_myreviews_category_dom']['Marketing'] = 'Marketing';
 $app_list_strings['irw_myreviews_category_dom']['Knowledege Base'] = 'Knowledge Base';
@@ -73,3 +77,20 @@ $app_list_strings['Irw_myreviews_source']['risk_map'] = 'Mapa de riesgos';
 $app_list_strings['Irw_myreviews_source']['other'] = 'Otra';
 $app_list_strings['Irw_myreviews_status']['process'] = 'Proceso';
 $app_list_strings['Irw_myreviews_status']['closed'] = 'Cerrado';
+$app_list_strings['Inv_myalerts_status']['new'] = 'Nuevo';
+$app_list_strings['Inv_myalerts_status']['in_process'] = 'En Proceso';
+$app_list_strings['Inv_myalerts_status']['finished'] = 'Terminado';
+$app_list_strings['irw_indicators_category_dom'][''] = '';
+$app_list_strings['irw_indicators_category_dom']['Marketing'] = 'Marketing';
+$app_list_strings['irw_indicators_category_dom']['Knowledege Base'] = 'Knowledge Base';
+$app_list_strings['irw_indicators_category_dom']['Sales'] = 'Sales';
+$app_list_strings['irw_indicators_subcategory_dom'][''] = '';
+$app_list_strings['irw_indicators_subcategory_dom']['Marketing Collateral'] = 'Marketing Collateral';
+$app_list_strings['irw_indicators_subcategory_dom']['Product Brochures'] = 'Product Brochures';
+$app_list_strings['irw_indicators_subcategory_dom']['FAQ'] = 'FAQ';
+$app_list_strings['irw_indicators_status_dom']['Active'] = 'Active';
+$app_list_strings['irw_indicators_status_dom']['Draft'] = 'Draft';
+$app_list_strings['irw_indicators_status_dom']['FAQ'] = 'FAQ';
+$app_list_strings['irw_indicators_status_dom']['Expired'] = 'Expired';
+$app_list_strings['irw_indicators_status_dom']['Under Review'] = 'Under Review';
+$app_list_strings['irw_indicators_status_dom']['Pending'] = 'Pending';
