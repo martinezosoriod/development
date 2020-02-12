@@ -44,7 +44,7 @@ array (
           'panelDefault' => 'expanded',
         ),
       ),
-      'syncDetailEditViews' => true,
+      'syncDetailEditViews' => false,
     ),
     'panels' => 
     array (
@@ -67,12 +67,21 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_SOURCE',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'which_one',
+            'label' => 'LBL_WHICH_ONE',
+          ),
         ),
         2 => 
         array (
           0 => 'document_name',
-          1 => '',
+          1 => 
+          array (
+            'name' => 'process',
+            'studio' => 'visible',
+            'label' => 'LBL_PROCESS',
+          ),
         ),
         3 => 
         array (

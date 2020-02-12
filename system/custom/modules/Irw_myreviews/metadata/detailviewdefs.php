@@ -66,7 +66,11 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_SOURCE',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'which_one',
+            'label' => 'LBL_WHICH_ONE',
+          ),
         ),
         2 => 
         array (
@@ -75,7 +79,12 @@ array (
             'name' => 'document_name',
             'label' => 'LBL_DOC_NAME',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'process',
+            'studio' => 'visible',
+            'label' => 'LBL_PROCESS',
+          ),
         ),
         3 => 
         array (
@@ -89,11 +98,7 @@ array (
         4 => 
         array (
           0 => 'category_id',
-          1 => '',
-        ),
-        5 => 
-        array (
-          0 => 
+          1 => 
           array (
             'name' => 'uploadfile',
             'displayParams' => 
@@ -102,9 +107,36 @@ array (
               'id' => 'id',
             ),
           ),
-          1 => '',
+        ),
+        5 => 
+        array (
+          0 => 
+          array (
+            'name' => 'created_by_name',
+            'label' => 'LBL_CREATED',
+          ),
+          1 => 
+          array (
+            'name' => 'modified_by_name',
+            'label' => 'LBL_MODIFIED_NAME',
+          ),
         ),
         6 => 
+        array (
+          0 => 
+          array (
+            'name' => 'date_entered',
+            'comment' => 'Date record created',
+            'label' => 'LBL_DATE_ENTERED',
+          ),
+          1 => 
+          array (
+            'name' => 'date_modified',
+            'comment' => 'Date record last modified',
+            'label' => 'LBL_DATE_MODIFIED',
+          ),
+        ),
+        7 => 
         array (
           0 => 
           array (

@@ -128,4 +128,7 @@ $mod_strings = array (
   'LBL_FIFTH' => 'Fifth',
   'LBL_CONSECUTIVE' => 'Consecutive',
   'LBL_EDITVIEW_PANEL1' => 'Cause Analysis (Methodology Five (5) Why)',
+  'LBL_WHICH_ONE' => 'Cúal',
+  'LBL_PROCESS_IRW_PROCESOS_ID' => 'Proceso (relacionado  ID)',
+  'LBL_PROCESS' => 'Proceso',
 );
