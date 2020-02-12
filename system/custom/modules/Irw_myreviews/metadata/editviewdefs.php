@@ -52,11 +52,7 @@ array (
       array (
         0 => 
         array (
-          0 => 
-          array (
-            'name' => 'consecutive',
-            'label' => 'LBL_CONSECUTIVE',
-          ),
+          0 => '',
           1 => 'status_id',
         ),
         1 => 
@@ -91,11 +87,7 @@ array (
         4 => 
         array (
           0 => 'category_id',
-          1 => '',
-        ),
-        5 => 
-        array (
-          0 => 
+          1 => 
           array (
             'name' => 'uploadfile',
             'displayParams' => 
@@ -103,9 +95,8 @@ array (
               'onchangeSetFileNameTo' => 'document_name',
             ),
           ),
-          1 => '',
         ),
-        6 => 
+        5 => 
         array (
           0 => 
           array (
