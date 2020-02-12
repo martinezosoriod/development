@@ -43,7 +43,7 @@ $dictionary['Irw_myreviews'] = array(
     'audited' => true,
     'inline_edit' => true,
     'fields' => array (
-  'document_name' => 
+  'document_name' =>
   array (
     'name' => 'document_name',
     'vname' => 'LBL_NAME',
@@ -53,7 +53,7 @@ $dictionary['Irw_myreviews'] = array(
     'len' => '255',
     'required' => true,
     'unified_search' => false,
-    'full_text_search' => 
+    'full_text_search' =>
     array (
       'boost' => 3,
     ),
@@ -70,7 +70,7 @@ $dictionary['Irw_myreviews'] = array(
     'merge_filter' => 'disabled',
     'size' => '20',
   ),
-  'file_mime_type' => 
+  'file_mime_type' =>
   array (
     'name' => 'file_mime_type',
     'vname' => 'LBL_MIME',
@@ -91,7 +91,7 @@ $dictionary['Irw_myreviews'] = array(
     'merge_filter' => 'disabled',
     'size' => '20',
   ),
-  'category_id' => 
+  'category_id' =>
   array (
     'name' => 'category_id',
     'vname' => 'LBL_SF_CATEGORY',
@@ -116,7 +116,7 @@ $dictionary['Irw_myreviews'] = array(
     'dependency' => false,
     'default' => 'corrective_action',
   ),
-  'file_ext' => 
+  'file_ext' =>
   array (
     'name' => 'file_ext',
     'vname' => 'LBL_FILE_EXTENSION',
@@ -137,7 +137,7 @@ $dictionary['Irw_myreviews'] = array(
     'merge_filter' => 'disabled',
     'size' => '20',
   ),
-  'source' => 
+  'source' =>
   array (
     'required' => true,
     'name' => 'source',
@@ -162,7 +162,7 @@ $dictionary['Irw_myreviews'] = array(
     'studio' => 'visible',
     'dependency' => false,
   ),
-  'status_id' => 
+  'status_id' =>
   array (
     'name' => 'status_id',
     'vname' => 'LBL_DOC_STATUS',
@@ -187,7 +187,7 @@ $dictionary['Irw_myreviews'] = array(
     'studio' => 'visible',
     'dependency' => false,
   ),
-  'status' => 
+  'status' =>
   array (
     'name' => 'status',
     'vname' => 'LBL_STATUS',
@@ -213,7 +213,7 @@ $dictionary['Irw_myreviews'] = array(
     'studio' => 'visible',
     'dependency' => false,
   ),
-  'first' => 
+  'first' =>
   array (
     'required' => false,
     'name' => 'first',
@@ -236,7 +236,7 @@ $dictionary['Irw_myreviews'] = array(
     'rows' => '3',
     'cols' => '20',
   ),
-  'second' => 
+  'second' =>
   array (
     'required' => false,
     'name' => 'second',
@@ -259,7 +259,7 @@ $dictionary['Irw_myreviews'] = array(
     'rows' => '3',
     'cols' => '20',
   ),
-  'third' => 
+  'third' =>
   array (
     'required' => false,
     'name' => 'third',
@@ -282,7 +282,7 @@ $dictionary['Irw_myreviews'] = array(
     'rows' => '3',
     'cols' => '20',
   ),
-  'fourth' => 
+  'fourth' =>
   array (
     'required' => false,
     'name' => 'fourth',
@@ -305,7 +305,7 @@ $dictionary['Irw_myreviews'] = array(
     'rows' => '3',
     'cols' => '20',
   ),
-  'fifth' => 
+  'fifth' =>
   array (
     'required' => false,
     'name' => 'fifth',
@@ -328,7 +328,7 @@ $dictionary['Irw_myreviews'] = array(
     'rows' => '3',
     'cols' => '20',
   ),
-  'consecutive' => 
+  'consecutive' =>
   array (
     'required' => false,
     'name' => 'consecutive',
@@ -354,6 +354,16 @@ $dictionary['Irw_myreviews'] = array(
     'max' => false,
   ),
 ),
+'indices' => array(
+    //add by n3mod
+    array(
+      'name' => 'consecutive',
+      'type' => 'unique',
+      'fields' => array('consecutive'),
+    ),
+)
+
+,
     'relationships' => array (
 ),
     'optimistic_locking' => true,
