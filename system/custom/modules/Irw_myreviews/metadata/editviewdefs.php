@@ -156,7 +156,12 @@ array (
       array (
         0 => 
         array (
-          0 => '',
+          0 => 
+          array (
+            'name' => 'indicator',
+            'studio' => 'visible',
+            'label' => 'LBL_INDICATOR',
+          ),
           1 => 
           array (
             'name' => 'closed_effectively',

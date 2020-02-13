@@ -134,4 +134,5 @@ $mod_strings = array (
   'LBL_CLOSED' => 'Cerrado',
   'LBL_DATE_CLOSED' => 'Fecha de Cierre',
   'LBL_CLOSED_EFFECTIVELY' => 'Cerrado Efectivamente',
+  'LBL_INDICATOR' => 'Indicador',
 );
