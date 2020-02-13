@@ -37,6 +37,11 @@ array (
           'newTab' => false,
           'panelDefault' => 'expanded',
         ),
+        'LBL_DETAILVIEW_PANEL2' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
       ),
       'syncDetailEditViews' => true,
     ),
@@ -190,6 +195,27 @@ array (
             'name' => 'fifth',
             'studio' => 'visible',
             'label' => 'LBL_FIFTH',
+          ),
+        ),
+      ),
+      'lbl_detailview_panel2' => 
+      array (
+        0 => 
+        array (
+          0 => '',
+          1 => 
+          array (
+            'name' => 'date_closed',
+            'label' => 'LBL_DATE_CLOSED',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'closed_effectively',
+            'studio' => 'visible',
+            'label' => 'LBL_CLOSED_EFFECTIVELY',
           ),
         ),
       ),

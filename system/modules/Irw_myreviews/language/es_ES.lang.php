@@ -131,4 +131,7 @@ $mod_strings = array (
   'LBL_WHICH_ONE' => 'Cúal',
   'LBL_PROCESS_IRW_PROCESOS_ID' => 'Proceso (relacionado  ID)',
   'LBL_PROCESS' => 'Proceso',
+  'LBL_CLOSED' => 'Cerrado',
+  'LBL_DATE_CLOSED' => 'Fecha de Cierre',
+  'LBL_CLOSED_EFFECTIVELY' => 'Cerrado Efectivamente',
 );

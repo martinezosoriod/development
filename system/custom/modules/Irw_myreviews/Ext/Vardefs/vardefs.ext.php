@@ -74,6 +74,11 @@ $dictionary["Irw_myreviews"]["fields"]["irw_myreviews_activities_meetings"] = ar
 );
 
 
+ // created: 2020-02-13 12:14:17
+$dictionary['Irw_myreviews']['fields']['date_closed']['required']=false;
+
+ 
+
  // created: 2020-02-12 15:39:09
 $dictionary['Irw_myreviews']['fields']['description']['audited']=true;
 $dictionary['Irw_myreviews']['fields']['description']['inline_edit']=true;

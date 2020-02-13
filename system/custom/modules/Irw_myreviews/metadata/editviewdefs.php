@@ -43,6 +43,11 @@ array (
           'newTab' => false,
           'panelDefault' => 'expanded',
         ),
+        'LBL_EDITVIEW_PANEL2' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
       ),
       'syncDetailEditViews' => false,
     ),
@@ -114,17 +119,14 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_FIRST',
           ),
-        ),
-        1 => 
-        array (
-          0 => 
+          1 => 
           array (
             'name' => 'second',
             'studio' => 'visible',
             'label' => 'LBL_SECOND',
           ),
         ),
-        2 => 
+        1 => 
         array (
           0 => 
           array (
@@ -132,23 +134,34 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_THIRD',
           ),
-        ),
-        3 => 
-        array (
-          0 => 
+          1 => 
           array (
             'name' => 'fourth',
             'studio' => 'visible',
             'label' => 'LBL_FOURTH',
           ),
         ),
-        4 => 
+        2 => 
         array (
           0 => 
           array (
             'name' => 'fifth',
             'studio' => 'visible',
             'label' => 'LBL_FIFTH',
+          ),
+          1 => '',
+        ),
+      ),
+      'lbl_editview_panel2' => 
+      array (
+        0 => 
+        array (
+          0 => '',
+          1 => 
+          array (
+            'name' => 'closed_effectively',
+            'studio' => 'visible',
+            'label' => 'LBL_CLOSED_EFFECTIVELY',
           ),
         ),
       ),

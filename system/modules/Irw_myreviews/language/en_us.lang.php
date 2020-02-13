@@ -130,5 +130,8 @@ $mod_strings = array (
   'LBL_EDITVIEW_PANEL1' => 'Cause Analysis (Methodology Five (5) Why)',
   'LBL_WHICH_ONE' => 'Cúal',
   'LBL_PROCESS_IRW_PROCESOS_ID' => 'Proceso (relacionado  ID)',
-  'LBL_PROCESS' => 'Proceso',
+  'LBL_PROCESS' => 'Process',
+  'LBL_CLOSED' => 'Closed',
+  'LBL_DATE_CLOSED' => 'Date to Closed',
+  'LBL_CLOSED_EFFECTIVELY' => 'Closed Efectively',
 );
