@@ -404,12 +404,13 @@ $dictionary['Account'] = array(
           'reportable' => true,
           'unified_search' => false,
           'merge_filter' => 'disabled',
-          'len' => '255',
+          'len' => '11',
           'size' => '20',
           'enable_range_search' => false,
           'disable_num_format' => '1',
           'min' => 1,
           'max' => false,
+          'auto_increment' => true,
         ),
         'mycode' =>
         array (
@@ -439,7 +440,7 @@ $dictionary['Account'] = array(
         array('name' => 'idx_accnt_assigned_del', 'type' => 'index', 'fields' => array('deleted', 'assigned_user_id')),
         array('name' => 'idx_accnt_parent_id', 'type' => 'index', 'fields' => array('parent_id')),
         //add by n3mod
-        array(  'name' => 'consecutive', 'type' => 'unique', 'fields' => array('consecutive')),
+        array(  'name' => 'consecutive', 'type' => 'unique key', 'fields' => array('consecutive')),
     )
 
 ,
