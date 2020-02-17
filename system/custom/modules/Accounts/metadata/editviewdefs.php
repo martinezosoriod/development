@@ -166,6 +166,17 @@ array (
           0 => 'campaign_name',
         ),
       ),
+      'LBL_PANEL_SOCIAL_FEED' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'facebook_user_c',
+            'label' => 'LBL_FACEBOOK_USER_C',
+          ),
+        ),
+      ),
     ),
   ),
 );
