@@ -408,7 +408,7 @@ $dictionary['Account'] = array(
           'size' => '20',
           'enable_range_search' => false,
           'disable_num_format' => '1',
-          'min' => false,
+          'min' => 1,
           'max' => false,
         ),
         'mycode' =>
@@ -439,11 +439,7 @@ $dictionary['Account'] = array(
         array('name' => 'idx_accnt_assigned_del', 'type' => 'index', 'fields' => array('deleted', 'assigned_user_id')),
         array('name' => 'idx_accnt_parent_id', 'type' => 'index', 'fields' => array('parent_id')),
         //add by n3mod
-        array(
-          'name' => 'consecutive',
-          'type' => 'unique',
-          'fields' => array('consecutive'),
-        ),
+        array(  'name' => 'consecutive', 'type' => 'unique', 'fields' => array('consecutive')),
     )
 
 ,
