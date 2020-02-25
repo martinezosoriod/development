@@ -20,8 +20,14 @@ $dictionary['Account']['fields']['jjwg_maps_lng_c']['inline_edit']=1;
 
  
 
- // created: 2019-11-18 21:34:47
-$dictionary['Account']['fields']['jjwg_maps_lat_c']['inline_edit']=1;
+ // created: 2019-11-18 21:34:48
+$dictionary['Account']['fields']['jjwg_maps_geocode_status_c']['inline_edit']=1;
+
+ 
+
+ // created: 2020-02-17 17:55:38
+$dictionary['Account']['fields']['facebook_user_c']['inline_edit']=1;
+$dictionary['Account']['fields']['facebook_user_c']['duplicate_merge_dom_value']=0;
 
  
 
@@ -30,8 +36,8 @@ $dictionary['Account']['fields']['jjwg_maps_address_c']['inline_edit']=1;
 
  
 
- // created: 2019-11-18 21:34:48
-$dictionary['Account']['fields']['jjwg_maps_geocode_status_c']['inline_edit']=1;
+ // created: 2019-11-18 21:34:47
+$dictionary['Account']['fields']['jjwg_maps_lat_c']['inline_edit']=1;
 
  
 ?>

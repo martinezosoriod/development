@@ -3,19 +3,6 @@
 
  
  //WARNING: The contents of this file are auto-generated
-$beanList['Inv_mysettings'] = 'Inv_mysettings';
-$beanFiles['Inv_mysettings'] = 'modules/Inv_mysettings/Inv_mysettings.php';
-$moduleList[] = 'Inv_mysettings';
-$beanList['Inv_myalerts'] = 'Inv_myalerts';
-$beanFiles['Inv_myalerts'] = 'modules/Inv_myalerts/Inv_myalerts.php';
-$moduleList[] = 'Inv_myalerts';
-$beanList['Inv_mycontrols'] = 'Inv_mycontrols';
-$beanFiles['Inv_mycontrols'] = 'modules/Inv_mycontrols/Inv_mycontrols.php';
-$moduleList[] = 'Inv_mycontrols';
-
-
- 
- //WARNING: The contents of this file are auto-generated
 $beanList['Irw_data_audits'] = 'Irw_data_audits';
 $beanFiles['Irw_data_audits'] = 'modules/Irw_data_audits/Irw_data_audits.php';
 $moduleList[] = 'Irw_data_audits';
@@ -40,6 +27,19 @@ $moduleList[] = 'Irw_procesos';
 $beanList['Irw_indicator_datas'] = 'Irw_indicator_datas';
 $beanFiles['Irw_indicator_datas'] = 'modules/Irw_indicator_datas/Irw_indicator_datas.php';
 $moduleList[] = 'Irw_indicator_datas';
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
+$beanList['Inv_mysettings'] = 'Inv_mysettings';
+$beanFiles['Inv_mysettings'] = 'modules/Inv_mysettings/Inv_mysettings.php';
+$moduleList[] = 'Inv_mysettings';
+$beanList['Inv_myalerts'] = 'Inv_myalerts';
+$beanFiles['Inv_myalerts'] = 'modules/Inv_myalerts/Inv_myalerts.php';
+$moduleList[] = 'Inv_myalerts';
+$beanList['Inv_mycontrols'] = 'Inv_mycontrols';
+$beanFiles['Inv_mycontrols'] = 'modules/Inv_mycontrols/Inv_mycontrols.php';
+$moduleList[] = 'Inv_mycontrols';
 
 
 ?>
