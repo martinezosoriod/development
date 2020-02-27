@@ -78,6 +78,9 @@ class Google_Service_SQLAdmin_Resource_Instances extends Google_Service_Resource
    * @param string $instance Cloud SQL instance ID. This does not include the
    * project ID.
    * @param array $optParams Optional parameters.
+   *
+   * @opt_param string resourceName The name of database instance to delete.
+   * Format: projects/{project}/locations/{location}/instances/{instance}
    * @return Google_Service_SQLAdmin_Operation
    */
   public function delete($project, $instance, $optParams = array())
@@ -207,19 +210,26 @@ class Google_Service_SQLAdmin_Resource_Instances extends Google_Service_Resource
     return $this->call('insert', array($params), "Google_Service_SQLAdmin_Operation");
   }
   /**
-   * Lists instances under a given project in the alphabetical order of the
-   * instance name. (instances.listInstances)
+   * Lists instances under a given project. (instances.listInstances)
    *
    * @param string $project Project ID of the project for which to list Cloud SQL
    * instances.
    * @param array $optParams Optional parameters.
    *
-   * @opt_param string pageToken A previously-returned page token representing
-   * part of the larger set of results to view.
    * @opt_param string maxResults The maximum number of results to return per
    * response.
-   * @opt_param string filter An expression for filtering the results of the
-   * request, such as by name or label.
+   * @opt_param string parent The parent, which owns this collection of database
+   * instances. Format: projects/{project}/locations/{location}
+   * @opt_param string filter A filter expression that filters resources listed in
+   * the response. The expression is in the form of field:value. For example,
+   * 'instanceType:CLOUD_SQL_INSTANCE'. Fields can be nested as needed as per
+   * their JSON representation, such as 'settings.userLabels.auto_start:true'.
+   *
+   * Multiple filter queries are space-separated. For example. 'state:RUNNABLE
+   * instanceType:CLOUD_SQL_INSTANCE'. By default, each expression is an AND
+   * expression. However, you can include AND and OR expressions explicitly.
+   * @opt_param string pageToken A previously-returned page token representing
+   * part of the larger set of results to view.
    * @return Google_Service_SQLAdmin_InstancesListResponse
    */
   public function listInstances($project, $optParams = array())
@@ -259,6 +269,10 @@ class Google_Service_SQLAdmin_Resource_Instances extends Google_Service_Resource
    * project ID.
    * @param Google_Service_SQLAdmin_DatabaseInstance $postBody
    * @param array $optParams Optional parameters.
+   *
+   * @opt_param string resourceName The name of the database instance for Cloud
+   * SQL to update. Format:
+   * projects/{project}/locations/{location}/instances/{instance}
    * @return Google_Service_SQLAdmin_Operation
    */
   public function patch($project, $instance, Google_Service_SQLAdmin_DatabaseInstance $postBody, $optParams = array())
@@ -422,15 +436,17 @@ class Google_Service_SQLAdmin_Resource_Instances extends Google_Service_Resource
     return $this->call('truncateLog', array($params), "Google_Service_SQLAdmin_Operation");
   }
   /**
-   * Updates settings of a Cloud SQL instance. Caution: This is not a partial
-   * update, so you must include values for all the settings that you want to
-   * retain. For partial updates, use patch. (instances.update)
+   * Updates settings of a Cloud SQL instance. (instances.update)
    *
    * @param string $project Project ID of the project that contains the instance.
    * @param string $instance Cloud SQL instance ID. This does not include the
    * project ID.
    * @param Google_Service_SQLAdmin_DatabaseInstance $postBody
    * @param array $optParams Optional parameters.
+   *
+   * @opt_param string resourceName The name of the database instance for Cloud
+   * SQL to update. Format:
+   * projects/{project}/locations/{location}/instances/{instance}
    * @return Google_Service_SQLAdmin_Operation
    */
   public function update($project, $instance, Google_Service_SQLAdmin_DatabaseInstance $postBody, $optParams = array())

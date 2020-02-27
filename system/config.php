@@ -1,5 +1,5 @@
 <?php
-// created: 2020-01-21 16:39:17
+// created: 2020-02-26 19:56:44
 $sugar_config = array (
   'addAjaxBannedModules' => 
   array (
@@ -311,7 +311,7 @@ $sugar_config = array (
     'timeout' => 86400,
   ),
   'js_custom_version' => 1,
-  'js_lang_version' => 7,
+  'js_lang_version' => 8,
   'languages' => 
   array (
     'en_us' => 'English (US)',
@@ -362,7 +362,7 @@ $sugar_config = array (
     'linkexpiration' => '1',
     'linkexpirationtime' => '30',
     'linkexpirationtype' => '1',
-    'systexpiration' => '1',
+    'systexpiration' => '',
     'systexpirationtime' => '7',
     'systexpirationtype' => '1',
     'systexpirationlogin' => '',
@@ -419,9 +419,10 @@ $sugar_config = array (
   'showThemePicker' => true,
   'site_url' => 'http://localhost/software/tkernel/system',
   'slow_query_time_msec' => '100',
+  'strict_id_validation' => false,
   'sugar_version' => '6.5.25',
   'sugarbeet' => false,
-  'suitecrm_version' => '7.11.9',
+  'suitecrm_version' => '7.11.12',
   'system_email_templates' => 
   array (
     'confirm_opt_in_template_id' => '53ae0c6a-4d74-d459-5bdb-5dd3544739cd',

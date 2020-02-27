@@ -33,6 +33,10 @@ class Google_Service_SQLAdmin_Resource_Databases extends Google_Service_Resource
    * project ID.
    * @param string $database Name of the database to be deleted in the instance.
    * @param array $optParams Optional parameters.
+   *
+   * @opt_param string resourceName The name of the database to delete. Format: pr
+   * ojects/{project}/locations/{location}/instances/{instance}/databases/{databas
+   * e}
    * @return Google_Service_SQLAdmin_Operation
    */
   public function delete($project, $instance, $database, $optParams = array())
@@ -103,7 +107,9 @@ class Google_Service_SQLAdmin_Resource_Databases extends Google_Service_Resource
   }
   /**
    * Partially updates a resource containing information about a database inside a
-   * Cloud SQL instance. This method supports patch semantics. (databases.patch)
+   * Cloud SQL instance. This method supports patch semantics. Caution: This is
+   * not a partial update, so you must include values for all the settings that
+   * you want to retain. For partial updates, use update. (databases.patch)
    *
    * @param string $project Project ID of the project that contains the instance.
    * @param string $instance Database instance ID. This does not include the
@@ -111,6 +117,10 @@ class Google_Service_SQLAdmin_Resource_Databases extends Google_Service_Resource
    * @param string $database Name of the database to be updated in the instance.
    * @param Google_Service_SQLAdmin_Database $postBody
    * @param array $optParams Optional parameters.
+   *
+   * @opt_param string resourceName The name of the database for Cloud SQL to
+   * update. Format: projects/{project}/locations/{location}/instances/{instance}/
+   * databases/{database}
    * @return Google_Service_SQLAdmin_Operation
    */
   public function patch($project, $instance, $database, Google_Service_SQLAdmin_Database $postBody, $optParams = array())
@@ -129,6 +139,10 @@ class Google_Service_SQLAdmin_Resource_Databases extends Google_Service_Resource
    * @param string $database Name of the database to be updated in the instance.
    * @param Google_Service_SQLAdmin_Database $postBody
    * @param array $optParams Optional parameters.
+   *
+   * @opt_param string resourceName The name of the database for Cloud SQL to
+   * update. Format: projects/{project}/locations/{location}/instances/{instance}/
+   * databases/{database}
    * @return Google_Service_SQLAdmin_Operation
    */
   public function update($project, $instance, $database, Google_Service_SQLAdmin_Database $postBody, $optParams = array())

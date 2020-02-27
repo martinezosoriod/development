@@ -24,7 +24,6 @@ return array(
     'Zend_Cache' => array($vendorDir . '/zf1/zend-cache/library'),
     'UpdateHelper\\' => array($vendorDir . '/kylekatarnls/update-helper/src'),
     'Pimple' => array($vendorDir . '/pimple/pimple/src'),
-    'PhpOption\\' => array($vendorDir . '/phpoption/phpoption/src'),
     'Pdp\\' => array($vendorDir . '/jeremykendall/php-domain-parser/src'),
     'HTMLPurifier' => array($vendorDir . '/ezyang/htmlpurifier/library'),
     'Google_Service_' => array($vendorDir . '/google/apiclient-services/src'),

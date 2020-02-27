@@ -155,6 +155,10 @@ class Google_Service_AndroidManagement extends Google_Service
                   'type' => 'string',
                   'repeated' => true,
                 ),
+                'wipeReasonMessage' => array(
+                  'location' => 'query',
+                  'type' => 'string',
+                ),
               ),
             ),'get' => array(
               'path' => 'v1/{+name}',
@@ -257,6 +261,10 @@ class Google_Service_AndroidManagement extends Google_Service
                   'type' => 'string',
                   'required' => true,
                 ),
+                'filter' => array(
+                  'location' => 'query',
+                  'type' => 'string',
+                ),
                 'pageToken' => array(
                   'location' => 'query',
                   'type' => 'string',
@@ -264,10 +272,6 @@ class Google_Service_AndroidManagement extends Google_Service
                 'pageSize' => array(
                   'location' => 'query',
                   'type' => 'integer',
-                ),
-                'filter' => array(
-                  'location' => 'query',
-                  'type' => 'string',
                 ),
               ),
             ),

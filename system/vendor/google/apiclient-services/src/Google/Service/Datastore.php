@@ -163,7 +163,32 @@ class Google_Service_Datastore extends Google_Service
         'indexes',
         array(
           'methods' => array(
-            'get' => array(
+            'create' => array(
+              'path' => 'v1/projects/{projectId}/indexes',
+              'httpMethod' => 'POST',
+              'parameters' => array(
+                'projectId' => array(
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ),
+              ),
+            ),'delete' => array(
+              'path' => 'v1/projects/{projectId}/indexes/{indexId}',
+              'httpMethod' => 'DELETE',
+              'parameters' => array(
+                'projectId' => array(
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ),
+                'indexId' => array(
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ),
+              ),
+            ),'get' => array(
               'path' => 'v1/projects/{projectId}/indexes/{indexId}',
               'httpMethod' => 'GET',
               'parameters' => array(

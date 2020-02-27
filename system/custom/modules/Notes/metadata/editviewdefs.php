@@ -1,29 +1,27 @@
 <?php
-$viewdefs ['Notes'] = 
-array (
-  'EditView' => 
+// created: 2020-02-26 19:46:00
+$viewdefs['Notes']['EditView'] = array (
+  'templateMeta' => 
   array (
-    'templateMeta' => 
+    'form' => 
     array (
-      'form' => 
+      'enctype' => 'multipart/form-data',
+    ),
+    'maxColumns' => '2',
+    'widths' => 
+    array (
+      0 => 
       array (
-        'enctype' => 'multipart/form-data',
+        'label' => '10',
+        'field' => '30',
       ),
-      'maxColumns' => '2',
-      'widths' => 
+      1 => 
       array (
-        0 => 
-        array (
-          'label' => '10',
-          'field' => '30',
-        ),
-        1 => 
-        array (
-          'label' => '10',
-          'field' => '30',
-        ),
+        'label' => '10',
+        'field' => '30',
       ),
-      'javascript' => '{sugar_getscript file="include/javascript/dashlets.js"}
+    ),
+    'javascript' => '{sugar_getscript file="include/javascript/dashlets.js"}
 <script>
 function deleteAttachmentCallBack(text)
 	{literal} { {/literal}
@@ -38,54 +36,51 @@ function deleteAttachmentCallBack(text)
 {literal} } {/literal}
 </script>
 <script>toggle_portal_flag(); function toggle_portal_flag()  {literal} { {/literal} {$TOGGLE_JS} {literal} } {/literal} </script>',
-    ),
-    'panels' => 
+  ),
+  'panels' => 
+  array (
+    'lbl_note_information' => 
     array (
-      'lbl_note_information' => 
+      0 => 
+      array (
+        0 => 'contact_name',
+        1 => 'parent_name',
+      ),
+      1 => 
       array (
         0 => 
         array (
-          0 => 'contact_name',
-          1 => 'parent_name',
-        ),
-        1 => 
-        array (
-          0 => 
+          'name' => 'name',
+          'displayParams' => 
           array (
-            'name' => 'name',
-            'displayParams' => 
-            array (
-              'size' => 60,
-            ),
+            'size' => 60,
           ),
-          1 => '',
         ),
-        2 => 
+        1 => '',
+      ),
+      2 => 
+      array (
+        0 => 'filename',
+      ),
+      3 => 
+      array (
+        0 => 
         array (
-          0 => 'filename',
-        ),
-        3 => 
-        array (
-          0 => 
-          array (
-            'name' => 'description',
-            'label' => 'LBL_NOTE_STATUS',
-          ),
+          'name' => 'description',
+          'label' => 'LBL_NOTE_STATUS',
         ),
       ),
-      'LBL_PANEL_ASSIGNMENT' => 
+    ),
+    'LBL_PANEL_ASSIGNMENT' => 
+    array (
+      0 => 
       array (
         0 => 
         array (
-          0 => 
-          array (
-            'name' => 'assigned_user_name',
-            'label' => 'LBL_ASSIGNED_TO',
-          ),
+          'name' => 'assigned_user_name',
+          'label' => 'LBL_ASSIGNED_TO',
         ),
       ),
     ),
   ),
 );
-;
-?>

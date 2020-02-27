@@ -26,8 +26,8 @@
 class Google_Service_Compute_Resource_RegionOperations extends Google_Service_Resource
 {
   /**
-   * Deletes the specified region-specific Operations resource. (==
-   * suppress_warning http-rest-shadowed ==) (regionOperations.delete)
+   * Deletes the specified region-specific Operations resource.
+   * (regionOperations.delete)
    *
    * @param string $project Project ID for this request.
    * @param string $region Name of the region for this request.
@@ -41,8 +41,8 @@ class Google_Service_Compute_Resource_RegionOperations extends Google_Service_Re
     return $this->call('delete', array($params));
   }
   /**
-   * Retrieves the specified region-specific Operations resource. (==
-   * suppress_warning http-rest-shadowed ==) (regionOperations.get)
+   * Retrieves the specified region-specific Operations resource.
+   * (regionOperations.get)
    *
    * @param string $project Project ID for this request.
    * @param string $region Name of the region for this request.
@@ -58,8 +58,7 @@ class Google_Service_Compute_Resource_RegionOperations extends Google_Service_Re
   }
   /**
    * Retrieves a list of Operation resources contained within the specified
-   * region. (== suppress_warning http-rest-shadowed ==)
-   * (regionOperations.listRegionOperations)
+   * region. (regionOperations.listRegionOperations)
    *
    * @param string $project Project ID for this request.
    * @param string $region Name of the region for this request.
@@ -110,5 +109,31 @@ class Google_Service_Compute_Resource_RegionOperations extends Google_Service_Re
     $params = array('project' => $project, 'region' => $region);
     $params = array_merge($params, $optParams);
     return $this->call('list', array($params), "Google_Service_Compute_OperationList");
+  }
+  /**
+   * Waits for the specified Operation resource to return as DONE or for the
+   * request to approach the 2 minute deadline, and retrieves the specified
+   * Operation resource. This method differs from the GET method in that it waits
+   * for no more than the default deadline (2 minutes) and then returns the
+   * current state of the operation, which might be DONE or still in progress.
+   *
+   * This method is called on a best-effort basis. Specifically:   - In uncommon
+   * cases, when the server is overloaded, the request might return before the
+   * default deadline is reached, or might return after zero seconds.  - If the
+   * default deadline is reached, there is no guarantee that the operation is
+   * actually done when the method returns. Be prepared to retry if the operation
+   * is not DONE. (regionOperations.wait)
+   *
+   * @param string $project Project ID for this request.
+   * @param string $region Name of the region for this request.
+   * @param string $operation Name of the Operations resource to return.
+   * @param array $optParams Optional parameters.
+   * @return Google_Service_Compute_Operation
+   */
+  public function wait($project, $region, $operation, $optParams = array())
+  {
+    $params = array('project' => $project, 'region' => $region, 'operation' => $operation);
+    $params = array_merge($params, $optParams);
+    return $this->call('wait', array($params), "Google_Service_Compute_Operation");
   }
 }

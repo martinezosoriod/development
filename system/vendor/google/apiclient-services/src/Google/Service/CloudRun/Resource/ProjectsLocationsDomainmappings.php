@@ -104,26 +104,4 @@ class Google_Service_CloudRun_Resource_ProjectsLocationsDomainmappings extends G
     $params = array_merge($params, $optParams);
     return $this->call('list', array($params), "Google_Service_CloudRun_ListDomainMappingsResponse");
   }
-  /**
-   * Replace a domain mapping.
-   *
-   * Only the spec and metadata labels and annotations are modifiable. After the
-   * Update request, Cloud Run will work to make the 'status' match the requested
-   * 'spec'.
-   *
-   * May provide metadata.resourceVersion to enforce update from last read for
-   * optimistic concurrency control. (domainmappings.replaceDomainMapping)
-   *
-   * @param string $name The name of the domain mapping being retrieved. For Cloud
-   * Run (fully managed), replace {namespace_id} with the project ID or number.
-   * @param Google_Service_CloudRun_DomainMapping $postBody
-   * @param array $optParams Optional parameters.
-   * @return Google_Service_CloudRun_DomainMapping
-   */
-  public function replaceDomainMapping($name, Google_Service_CloudRun_DomainMapping $postBody, $optParams = array())
-  {
-    $params = array('name' => $name, 'postBody' => $postBody);
-    $params = array_merge($params, $optParams);
-    return $this->call('replaceDomainMapping', array($params), "Google_Service_CloudRun_DomainMapping");
-  }
 }

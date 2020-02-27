@@ -178,6 +178,29 @@ class Google_Service_ShoppingContent extends Google_Service
                   'type' => 'string',
                 ),
               ),
+            ),'listlinks' => array(
+              'path' => '{merchantId}/accounts/{accountId}/listlinks',
+              'httpMethod' => 'GET',
+              'parameters' => array(
+                'merchantId' => array(
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ),
+                'accountId' => array(
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ),
+                'maxResults' => array(
+                  'location' => 'query',
+                  'type' => 'integer',
+                ),
+                'pageToken' => array(
+                  'location' => 'query',
+                  'type' => 'string',
+                ),
+              ),
             ),'update' => array(
               'path' => '{merchantId}/accounts/{accountId}',
               'httpMethod' => 'PUT',
@@ -1596,6 +1619,16 @@ class Google_Service_ShoppingContent extends Google_Service
               ),
             ),'getsupportedholidays' => array(
               'path' => '{merchantId}/supportedHolidays',
+              'httpMethod' => 'GET',
+              'parameters' => array(
+                'merchantId' => array(
+                  'location' => 'path',
+                  'type' => 'string',
+                  'required' => true,
+                ),
+              ),
+            ),'getsupportedpickupservices' => array(
+              'path' => '{merchantId}/supportedPickupServices',
               'httpMethod' => 'GET',
               'parameters' => array(
                 'merchantId' => array(
