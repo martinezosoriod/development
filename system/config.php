@@ -1,5 +1,5 @@
 <?php
-// created: 2020-02-26 19:56:44
+// created: 2020-03-07 09:33:17
 $sugar_config = array (
   'addAjaxBannedModules' => 
   array (
@@ -97,7 +97,7 @@ $sugar_config = array (
     'db_host_name' => 'localhost',
     'db_host_instance' => 'SQLEXPRESS',
     'db_user_name' => 'ns',
-    'db_password' => 'inocent',
+    'db_password' => 'N3g@tivo99',
     'db_name' => 'ns_dv',
     'db_type' => 'mysql',
     'db_port' => '',

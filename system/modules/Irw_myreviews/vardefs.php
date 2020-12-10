@@ -215,7 +215,7 @@ $dictionary['Irw_myreviews'] = array(
   ),
   'first' =>
   array (
-    'required' => false,
+    'required' => true,
     'name' => 'first',
     'vname' => 'LBL_FIRST',
     'type' => 'text',
@@ -238,7 +238,7 @@ $dictionary['Irw_myreviews'] = array(
   ),
   'second' =>
   array (
-    'required' => false,
+    'required' => true,
     'name' => 'second',
     'vname' => 'LBL_SECOND',
     'type' => 'text',
@@ -261,7 +261,7 @@ $dictionary['Irw_myreviews'] = array(
   ),
   'third' =>
   array (
-    'required' => false,
+    'required' => true,
     'name' => 'third',
     'vname' => 'LBL_THIRD',
     'type' => 'text',
@@ -284,7 +284,7 @@ $dictionary['Irw_myreviews'] = array(
   ),
   'fourth' =>
   array (
-    'required' => false,
+    'required' => true,
     'name' => 'fourth',
     'vname' => 'LBL_FOURTH',
     'type' => 'text',
@@ -307,9 +307,32 @@ $dictionary['Irw_myreviews'] = array(
   ),
   'fifth' =>
   array (
-    'required' => false,
+    'required' => true,
     'name' => 'fifth',
     'vname' => 'LBL_FIFTH',
+    'type' => 'text',
+    'massupdate' => 0,
+    'no_default' => false,
+    'comments' => '',
+    'help' => '',
+    'importable' => 'true',
+    'duplicate_merge' => 'disabled',
+    'duplicate_merge_dom_value' => '0',
+    'audited' => true,
+    'inline_edit' => true,
+    'reportable' => true,
+    'unified_search' => false,
+    'merge_filter' => 'disabled',
+    'size' => '20',
+    'studio' => 'visible',
+    'rows' => '3',
+    'cols' => '20',
+  ),
+  'root_cause' =>
+  array (
+    'required' => true,
+    'name' => 'root_cause',
+    'vname' => 'LBL_ROOT_CAUSE',
     'type' => 'text',
     'massupdate' => 0,
     'no_default' => false,

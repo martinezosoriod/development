@@ -82,6 +82,12 @@ $dictionary['Irw_myreviews']['fields']['description']['merge_filter']='disabled'
 
  
 
+ // created: 2020-03-13 20:29:29
+$dictionary['Irw_myreviews']['fields']['root_cause_c']['inline_edit']='1';
+$dictionary['Irw_myreviews']['fields']['root_cause_c']['labelValue']='Causa Raíz';
+
+ 
+
  // created: 2020-02-13 12:14:17
 $dictionary['Irw_myreviews']['fields']['date_closed']['required']=false;
 

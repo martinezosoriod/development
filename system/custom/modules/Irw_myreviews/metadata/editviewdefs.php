@@ -149,7 +149,12 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_FIFTH',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'root_cause_c',
+            'studio' => 'visible',
+            'label' => 'LBL_ROOT_CAUSE',
+          ),
         ),
       ),
       'lbl_editview_panel2' => 

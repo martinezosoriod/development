@@ -38,6 +38,10 @@
  * display the words "Powered by SugarCRM" and "Supercharged by SuiteCRM".
  */
 $mod_strings = array (
+  'LBL_ASSIGNED_TO_ID' => 'Id de usuario asignado',
+  'LBL_ASSIGNED_TO_NAME' => 'Asignado a',
+  'LBL_SECURITYGROUPS' => 'Grupos de Seguridad',
+  'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Grupos de Seguridad',
   'LBL_ID' => 'ID',
   'LBL_DATE_ENTERED' => 'Fecha de Creación',
   'LBL_DATE_MODIFIED' => 'Fecha de Modificación',
@@ -58,10 +62,6 @@ $mod_strings = array (
   'LBL_OPT_IN_PENDING_EMAIL_NOT_SENT' => 'Confirmación de Autorización pendiente, Confirmación de Autorización no enviada',
   'LBL_OPT_IN_PENDING_EMAIL_SENT' => 'Confirmación de Autorización pendiente, Confirmación de Autorización enviada',
   'LBL_OPT_IN_CONFIRMED' => 'Autorizado',
-  'LBL_ASSIGNED_TO_ID' => 'Id de usuario asignado',
-  'LBL_ASSIGNED_TO_NAME' => 'Asignado a',
-  'LBL_SECURITYGROUPS' => 'Grupos de Seguridad',
-  'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Grupos de Seguridad',
   'LBL_LIST_FORM_TITLE' => 'Basico Lista',
   'LBL_MODULE_NAME' => 'Basico',
   'LBL_MODULE_TITLE' => 'Basico',
@@ -74,4 +74,6 @@ $mod_strings = array (
   'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Actividades',
   'LBL_DEV_FACTS_SUBPANEL_TITLE' => 'Basico',
   'LBL_NEW_FORM_TITLE' => 'Nuevo Basico',
+  'LBL_PROCESS_IRW_PROCESOS_ID' => 'Proceso (relacionado  ID)',
+  'LBL_PROCESS' => 'Proceso',
 );

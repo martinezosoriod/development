@@ -197,6 +197,15 @@ array (
             'label' => 'LBL_FIFTH',
           ),
         ),
+        5 => 
+        array (
+          0 => 
+          array (
+            'name' => 'root_cause_c',
+            'studio' => 'visible',
+            'label' => 'LBL_ROOT_CAUSE',
+          ),
+        ),
       ),
       'lbl_detailview_panel2' => 
       array (

@@ -12,6 +12,15 @@ $dictionary['Lead']['fields']['jjwg_maps_geocode_status_c']['inline_edit']=1;
 
  
 
+ // created: 2020-04-01 04:42:47
+$dictionary['Lead']['fields']['first_name']['required']=true;
+$dictionary['Lead']['fields']['first_name']['audited']=true;
+$dictionary['Lead']['fields']['first_name']['inline_edit']=true;
+$dictionary['Lead']['fields']['first_name']['comments']='First name of the contact';
+$dictionary['Lead']['fields']['first_name']['merge_filter']='disabled';
+
+ 
+
  // created: 2020-02-17 17:55:40
 $dictionary['Lead']['fields']['facebook_user_c']['inline_edit']=1;
 $dictionary['Lead']['fields']['facebook_user_c']['duplicate_merge_dom_value']=0;
